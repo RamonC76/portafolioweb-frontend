@@ -458,9 +458,9 @@ export default function DemoOCISection() {
                         </table>
                         {filteredBooks.length > 0 && (
                             <div className="flex items-center justify-between px-4 py-3 bg-white border-t border-slate-200 sm:px-6 mt-2 rounded-b-lg">
-                                <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                                <div className="flex flex-col sm:flex-row w-full sm:items-center sm:justify-between gap-3">
                                     <div>
-                                        <p className="text-sm text-slate-700">
+                                        <p className="text-sm text-slate-700 text-center sm:text-left">
                                             Showing <span className="font-semibold">{indexOfFirstBook + 1}</span> to{' '}
                                             <span className="font-semibold">
                                                 {Math.min(indexOfLastBook, filteredBooks.length)}
@@ -468,7 +468,7 @@ export default function DemoOCISection() {
                                             of <span className="font-semibold">{filteredBooks.length}</span> records
                                         </p>
                                     </div>
-                                    <div>
+                                    <div className="flex justify-center sm:justify-end">
                                         <nav className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
                                             <button
                                                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
@@ -478,7 +478,6 @@ export default function DemoOCISection() {
                                                 Previous
                                             </button>
 
-                                            {/* Indicador de página actual */}
                                             <span className="relative inline-flex items-center px-4 py-2 text-sm font-medium text-blue-600 bg-blue-50 border border-slate-300">
                                                 Page {currentPage} of {totalPages}
                                             </span>

@@ -4,6 +4,7 @@ export default function MainLayout({ children }) {
 
     const navLinks = [
         { href: '#experiencia', label: 'Job Experience' },
+        { href: '#aboutme', label: 'About Me' },
         { href: '#proyectos', label: 'Projects' },
         { href: '#demo', label: 'Transactional Demo' },
         { href: '#contacto', label: 'Contact' },
