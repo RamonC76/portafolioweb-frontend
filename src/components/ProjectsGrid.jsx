@@ -3,24 +3,24 @@ import React from 'react';
 export default function ProjectsGrid() {
     const projects = [
         {
-            title: 'Corporativo CORMEN',
-            category: 'Identidad Corporativa & IA',
-            description: 'Creación del concepto de marca y desarrollo de videos promocionales mediante modelos avanzados de generación de video por inteligencia artificial.',
-            tags: ['AI Video Generation', 'Prompt Engineering', 'Brand Concept'],
+            title: 'Chronoteque',
+            category: 'Scrum & Project Management',
+            description: 'Creation of the application integrated with Azure DevOps to obtain the sprint summary in a more agile way, without requiring each team member to invest additional time. Developed with AI (Claude), using Python as the programming language and a local Oracle database.',
+            tags: ['Scrum', 'Prompt Engineering', 'Software Development'],
             color: 'from-blue-500 to-indigo-600'
         },
         {
-            title: 'La Casa del Panqué',
-            category: 'Branding Comercial',
-            description: 'Desarrollo integral de la identidad visual, diseño de logotipos y generación de gráficos de marketing impulsados por IA para una línea de productos artesanales.',
-            tags: ['Generación de Imágenes', 'Diseño de Logos', 'Marketing'],
+            title: 'Signature and Document Manager',
+            category: 'Databases',
+            description: "Creation of the database architecture from scratch for document and signature management for the company's legal department. Oracle database hosted on AWS. Procedures, functions, and tables were developed, and proper performance was verified for use with the web application.",
+            tags: ['Oracle', 'Tuning', 'Performance'],
             color: 'from-amber-500 to-orange-600'
         },
         {
-            title: 'Los Chilanguitos',
-            category: 'Identidad Visual',
-            description: 'Diseño de marca y líneas de productos mediante herramientas generativas para posicionamiento comercial y creación de material gráfico promocional.',
-            tags: ['AI Art', 'Concepto de Producto', 'Identidad Visual'],
+            title: 'System Update and Migration',
+            category: 'Development',
+            description: 'A technological upgrade of the human resources system from VB6 to .NET was carried out, where the legacy functionality had to be completely emulated to minimize the operational impact on users.',
+            tags: ['Tech upgrade', '.NET', 'Legacy System'],
             color: 'from-emerald-500 to-teal-600'
         }
     ];
@@ -28,9 +28,9 @@ export default function ProjectsGrid() {
     return (
         <section className="py-12 mt-4 border-t border-slate-200">
             <div className="mb-10">
-                <h2 className="text-3xl font-extrabold text-slate-900 mb-2">Proyectos Generativos & Marcas</h2>
+                <h2 className="text-3xl font-extrabold text-slate-900 mb-2">Work Projects</h2>
                 <p className="text-slate-600">
-                    Aplicación de modelos de inteligencia artificial para la automatización del diseño, creación de identidades visuales y material promocional.
+                    Work projects with the greatest impact within each organization
                 </p>
             </div>
 

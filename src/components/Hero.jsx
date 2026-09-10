@@ -4,10 +4,10 @@ export default function Hero() {
     return (
         <section className="py-16 md:py-24">
             <div className="max-w-3xl">
-                <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
-                    Database & Software<br className="hidden md:block" />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
-                        Engineer.
+                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+                    Database & <br className="hidden md:block" />
+                    <span className="whitespace-nowrap">
+                        Software <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Engineer.</span>
                     </span>
                 </h1>
 

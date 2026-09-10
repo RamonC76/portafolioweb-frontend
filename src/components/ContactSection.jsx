@@ -88,7 +88,7 @@ export default function ContactSection() {
                                     <p className="text-sm text-slate-400 mt-1 flex space-x-3">
                                         <a href="https://www.linkedin.com/in/ramon-corona-2b2071130/" target="_blank" className="hover:text-blue-400 transition-colors">LinkedIn</a>
                                         <span>&bull;</span>
-                                        <a href="#" className="hover:text-blue-400 transition-colors">GitHub</a>
+                                        <a href="https://github.com/RamonC76" target="_blank" className="hover:text-blue-400 transition-colors">GitHub</a>
                                     </p>
                                 </div>
                             </div>
